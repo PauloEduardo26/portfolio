@@ -1,0 +1,59 @@
+@media (max-width: 1050px) {
+    main{
+        height: 100vh;
+    }
+    .sobre .profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .sobre h1{
+        margin-bottom: 0;
+    }
+    .sobre .profile img{
+        max-width: 200px;
+        margin: 30px 0px;
+    }
+
+    .hamburguer, 
+    .toggle-menu{
+        display: block;
+    }
+    header{
+        padding: 10px 20px;
+    }
+    .sections{
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        z-index: 1;
+        background-color:var(--secondary-background-color);
+        width: 300px;
+        height: 100%;
+        padding-top: 65px;
+    }
+    .sections li a{
+        padding: 30px;
+        width: 100%;
+        font-size: 24px;
+    }
+}
+@media (max-width: 565px) {
+    main .menu h1{
+        font-size: 40px;
+    }
+    main .menu p,
+    .social a i{
+        font-size: 20px;
+    }
+    .skills .skills-container{
+        margin: 40px 100px;
+    }
+    .email a p{
+        display: none;
+    }
+
+}

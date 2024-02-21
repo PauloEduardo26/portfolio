@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/globalstyle.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <title>Paulo Eduardo - Programador Front End</title>
+    
+</head>
+<body>
+    <main id="main">
+        <header>
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+                <a><p class="email-text">pauloeduardosozza73@gmail.com</p></a>
+            </div>
+            <nav>
+                <input type="checkbox" class="toggle-menu">
+                <div class="hamburguer"></div>
+                <ul class="sections">
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="menu" >
+            <h1>Paulo Eduardo</h1>
+            <p>Desenvolvedor Front End</p>
+            <div class="social">
+                <a href="https://github.com/PauloEduardo26" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/paulo-eduardo-web/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/pauloeduardo0926/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <a class="scroll-back" href="#main"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </main>
+    <section class="sobre hidden" id="resume">
+        <h1>Sobre Mim</h1>
+        <div class="profile">
+            <img src="./src/images/profile-pic.jpeg" alt="imagem de perfil">
+            <div class="description">
+                <h3>Prazer, meu nome é Paulo Eduardo, sou Desenvolvedor Front End</h3>
+                <p>Apaixonado por criar experiências digitais envolventes e impactantes. Com uma sólida formação em desenvolvimento web, busco aprofundar minha experiência na aréa, estou constantemente a procura de desafios que me permitam aprimorar minhas habilidades, contribuir para projetos inovadores e amigáveis ao usuário.</p>
+                <p>Minha jornada no mundo do desenvolvimento começou há 2 anos, quando descobri minha paixão pela criação de interfaces intuitivas e visualmente atraentes.
+                <p>Como hobbies adoro artes marciais, filmes e música.</p>
+            </div>
+        </div>
+    </section>
+    <section class="projects hidden" id="project">
+        <h1>Projects</h1>
+        <ul>
+            <li class="hidden">
+                <h3>Pokédex</h3>
+                <div class="links-repositories">
+                    <a href="https://github.com/PauloEduardo26/Pokedex-React" target="_blank">Ver Repositorio</a>
+                    <a href="/" target="_blank">Ver Online</a>
+                </div>
+                <div class="desktop-template">
+                    <img class="project-image" alt='imagem do projeto' src="./src/images/Animação-menu.gif">
+                    <img src="./src/images/desktop-template.webp" class="desktop">
+                </div>
+                <div class="mobile-template">
+                    <img class="project-image-mobile" alt='imagem do projeto' src="./src/images/mario-mobile.png">
+                    <img src="./src/images/mobile-template.webp" class="mobile">
+                </div>  
+                <p>Um projeto com React, JavaScript, HTML e CSS que mostra dados de Pokémons de uma API. Os usuários podem buscar, filtrar por tipo e ver detalhes de cada monstrinho. Utilizei componentes reutilizáveis e estados locais para uma experiência fluida. O layout é responsivo e o código está disponível no GitHub para colaboração.</p>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
+            </li>
+            <li class="hidden">
+                <h3>API GitHub</h3>
+                <div class="links-repositories">
+                    <a href="https://github.com/PauloEduardo26/Desafio-API-Github" target="_blank">Ver Repositorio</a>
+                    <a href="/" target="_blank">Ver Online</a>
+                </div>
+                <div class="desktop-template">
+                    <img alt='imagem do projeto' class="project-image" src="./src/images/api-github-animation.gif">
+                    <img src="./src/images/desktop-template.webp" class="desktop">
+                </div>
+                <div class="mobile-template">
+                    <img class="project-image-mobile" alt='imagem do projeto' src="./src/images/api-mobile.gif">
+                    <img src="./src/images/mobile-template.webp" class="mobile">
+                </div>  
+                <p>Projeto que busca os dados de usuário no github e retorna informações sobre o seu perfil, como seguidores e repositórios.</p>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+            </li>
+            <li class="hidden">
+                <h3>Super Mario</h3>
+                <div class="links-repositories">
+                    <a href="https://github.com/PauloEduardo26/projeto-mario" target="_blank">Ver Repositorio</a>
+                    <a href="/" target="_blank">Ver Online</a>
+                </div>
+                <div class="desktop-template">
+                    <img alt='imagem do projeto' class="project-image" src="./src/images/projeto-mario-desktop.gif">
+                    <img src="./src/images/desktop-template.webp" class="desktop">
+                </div>   
+                <div class="mobile-template">
+                    <img class="project-image-mobile" alt='imagem do projeto' src="./src/images/mario-mobile.png">
+                    <img src="./src/images/mobile-template.webp" class="mobile">
+                </div>             
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolores pariatur voluptate atque nulla nihil omnis modi. Ea, sed repudiandae, doloribus laborum eveniet repellendus culpa expedita, iste totam excepturi ex!</p>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+            </li>
+            <li class="hidden">
+                <h3>API GitHub</h3>
+                <div class="links-repositories">
+                    <a href="https://github.com/PauloEduardo26/Desafio-API-Github" target="_blank">Ver Repositorio</a>
+                    <a href="/" target="_blank">Ver Online</a>
+                </div>
+                <div class="desktop-template">
+                    <img alt='imagem do projeto' class="project-image" src="./src/images/github-project-screenshot.png">
+                    <img src="./src/images/desktop-template.webp" class="desktop">
+                </div>
+                <div class="mobile-template">
+                    <img class="project-image-mobile" alt='imagem do projeto' src="./src/images/mario-mobile.png">
+                    <img src="./src/images/mobile-template.webp" class="mobile">
+                </div>  
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolores pariatur voluptate atque nulla nihil omnis modi. Ea, sed repudiandae, doloribus laborum eveniet repellendus culpa expedita, iste totam excepturi ex!</p>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+            </li>
+        </ul>
+    </section>
+    <section class="skills hidden" id="skills">
+        <h1>Skills</h1>
+        <ul class="skills-container">
+            <li class="hidden">
+                <i class="fa-brands fa-react"></i>
+                <h3>React</h3>
+                <p>Utilizo a sintaxe JSX/TSX em conjunto com técnicas avançadas, como a gestão de estados e contextos por meio de hooks, para desenvolver componentes reutilizáveis. Essa abordagem não só facilita a manutenção do código, mas também torna a escalabilidade do projeto mais eficiente.</p>
+            </li>
+            <li class="hidden">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Estou familiarizado com recursos avançados do JavaScript, como arrow functions, destructuring e template literals. Utilizo essas técnicas em conjunto com funções, estruturas de repetição e manipulação do DOM para criar projetos inovadores que aprimoram a experiência do usuário. Além disso, integro APIs externas para enriquecer ainda mais as funcionalidades dos meus projetos.</p>
+            </li>
+            <li class="hidden">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Possuo conhecimento avançado das propriedades e valores do CSS, o que me capacita a manipular a posição dos elementos na página utilizando técnicas como flexbox e grid. Além disso, tenho habilidade para criar animações personalizadas e layouts responsivos que se adaptam perfeitamente a diferentes dispositivos e tamanhos de tela.</p>
+            </li>
+            <li class="hidden">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Tenho uma expertise sólida em HTML, a linguagem fundamental da web, e estou constantemente empenhado em implementar conceitos como código limpo e elementos semânticos. Meu foco é criar estruturas de página bem estruturadas, priorizando a clareza e a organização do código.</p>
+            </li>
+            <li class="hidden">
+                <i class="fa-brands fa-github"></i>
+                <h3>GitHub</h3>
+                <p>Faço uso do GitHub como plataforma central para criar repositórios dos meus projetos, garantindo um armazenamento seguro e um eficiente gerenciamento do código-fonte. Esta prática inclui a criação de branches dedicados para o desenvolvimento de novas funcionalidades ou para a aplicação de correções, garantindo assim a integridade do código principal.</p>
+            </li>
+            <li class="hidden">
+                <i class="fa-brands fa-git-alt"></i>
+                <h3>Git</h3>
+                <p>Possuo familiaridade com os princípios essenciais do Git, tais como a criação de repositórios, inicialização de projetos, criação de branches e commits. Tenho o hábito de utilizar comandos do Git para gerenciar o fluxo de trabalho do código, buscando manter os commits pequenos e focados, o que contribui para a organização e clareza do histórico de alterações do projeto.</p>
+            </li>
+        </ul>
+    </section>
+    <!-- <h1>oa</h1> -->
+    <footer id="contact">
+        <div class="social">
+            <a href="https://github.com/PauloEduardo26" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/paulo-eduardo-web/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/pauloeduardo0926/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </footer> 
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
